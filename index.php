@@ -9,18 +9,18 @@ $result=mysqli_query($con,$query);
 <title>php+sql</title>
 </head>
 <body>
-<h1>Adauga task nou</h1>
+<h1>Insert new task</h1>
 <form action="server.php" method="POST">             
-<input type="text" placeholder="Insereaza task" name="action">
+<input type="text" placeholder="Insert task" name="action">
 <button name="submit">Salvare</button>
 </form>
-<h3>Ce trebuie sa fac azi?</h3>
+<h3>What i need to do today?</h3>
 <table>
 <tr>
 <td>#</td>
-<td>Denumire</td>
-<td>Editeaza</td>
-<td>Editeaza</td>
+<td>Name</td>
+<td>Edit</td>
+<td>Edit</td>
 </tr>
 <?php                        
 while($row=mysqli_fetch_assoc($result))
