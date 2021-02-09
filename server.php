@@ -5,7 +5,7 @@ if(isset($_POST['submit']))
 {
 if(empty($action))
 {
-echo "Completeaza toate campurile";
+echo "Complete all the fields";
 }
 else
 {
@@ -17,7 +17,7 @@ header("location:index.php");
 }
 else
 {
-echo "Nu se poate introduce in baza de date";
+echo "Cannot insert into database";
 }
 }
 }
@@ -39,7 +39,7 @@ header("location:index.php");
 }
 else
 {
-echo "Nu se poate actualiza in tabel";
+echo "Cannot update table";
 }
 }
 else
@@ -57,7 +57,7 @@ header("location:index.php");
 }
 else
 {
-echo "Nu se poate sterge acest task";
+echo "Cannot delete task";
 }
 }
 ?>
