@@ -15,11 +15,11 @@ $nume1=$row['nume'];
 <title>php+sql</title>
 </head>
 <body>
-<h1>Interfata actualizare
+<h1>Update interface
 <form action="server.php?id=<?php echo $id1?>" method="POST">
 <input type="text" placeholder="Action" name="input_field"
 value="<?php echo $nume1?>">
-<button name="update">Actualizare</button>
+<button name="update">Update</button>
 </form>
 </div>
 </div>
