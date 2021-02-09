@@ -8,12 +8,12 @@ $con=mysqli_connect($hostName,$dbUsername,$dbPassword,$dbName);
 if(!$con)
 {
 die("Eroare de conexiune");
-$string="Neconectat";
+$string="Not connected";
 echo("<script>console.log('".$string."');</script>");
 }
 else
 {
-$string="Conectat";
+$string="Connected";
 echo("<script>console.log('".$string."');</script>");
 }
 ?>
