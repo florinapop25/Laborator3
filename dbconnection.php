@@ -1,0 +1,19 @@
+<?php
+$dbUsername="sql7391638";
+$dbPassword="pqXVyqvsHs";
+$hostName="sql7.freesqldatabase.com";
+$dbName="sql7391638";
+$dbPort=3306;
+$con=mysqli_connect($hostName,$dbUsername,$dbPassword,$dbName);
+if(!$con)
+{
+die("Eroare de conexiune");
+$string="Neconectat";
+echo("<script>console.log('".$string."');</script>");
+}
+else
+{
+$string="Conectat";
+echo("<script>console.log('".$string."');</script>");
+}
+?>
